@@ -76,4 +76,23 @@
     flex-wrap: nowrap;
   }
 
+  /* Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro */
+
+  .recipe-card {
+    display: flex;
+    width: 100%;
+  }
+
+  .recipe-video {
+    width: 60%;
+  }
+
+  .recipe-info {
+    width: 40%;
+  }
+
+  .quick-notes ul li {
+    width: 100%;
+  }
+
 }
