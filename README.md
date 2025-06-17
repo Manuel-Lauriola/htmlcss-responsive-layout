@@ -1,84 +1,40 @@
-Title
+htmlcss-responsive-layout
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+CONSEGNA
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+Oggi analizzeremo un sito in versione mobile, ma il cliente ci ha chiesto di renderlo responsive e adattarlo a tablet e desktop!
+Non potremo modificare il codice originale (né css, né html), ma potremo modificare il comportamento con un altro nostro file CSS!
 
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
+Analizziamo bene il sito ed il markup, poi proviamo ad accontentare le richieste del cliente come segue, aiutandoci con gli screenshot in allegato:0
 
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+Modalità Tablet (sopra i 768px)
 
+Il logo nell'header si allinea a sinistra
+Il padding del contenuto principale della pagina aumenta
+Compare il testo "(Dolce Tradizionale)"
+La grandezza del titolo diventa più grande
+Le informazioni della ricetta sotto il video si dispongono a griglia
+I bottoni social si allargano
+compare il banner pubblicitario
+l'immagine nella descrizione della ricetta viene circondata dal testo
 
-## Directory Hierarchy
-```
-|—— css
-|    |—— responsive.css
-|    |—— style.css
-|—— giallo_booleano_desktop.png
-|—— giallo_booleano_mobile.png
-|—— giallo_booleano_tablet.png
-|—— img
-|    |—— banner.png
-|    |—— screens
-|        |—— giallo_booleano_desktop.png
-|        |—— giallo_booleano_mobile.png
-|        |—— giallo_booleano_tablet.png
-|    |—— tiramisu.jpg
-|—— index.html
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
+Modalità Desktop(sopra i 992px)
 
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+La grandezza el titolo della ricetta aumenta ancora di più
+Le informazioni della ricetta tornano a disporsi una sotto l'altra
+Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
+Compaiono i nomi delle piattaforme social
+Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti
+
+   Bonus
+
+Modalità Large Mobile (576px)
+
+l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
+I bottoni social si allagano già su dispositivi mobile più grandetti (576px)
+
+Info
+
+Il font utilizzato per il titolo è: 'Nerko One', cursive;
+Il font per il resto della pagina è: Montserrat, 'Helvetica Neue', sans-serif;
+L'indirizzo del video YT utilizzato è https://www.youtube.com/watch?v=JVT900H6s0g

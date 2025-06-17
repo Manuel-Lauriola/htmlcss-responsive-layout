@@ -35,4 +35,10 @@
   .quick-notes ul li {
     width: 32%;
   }
+
+  /* I bottoni social si allargano */
+
+  .btn {
+    padding: 10px 50px;
+  }
 }
