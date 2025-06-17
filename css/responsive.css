@@ -41,4 +41,10 @@
   .btn {
     padding: 10px 50px;
   }
+
+  /* compare il banner pubblicitario */
+
+  .ads {
+    display: block;
+  }
 }
