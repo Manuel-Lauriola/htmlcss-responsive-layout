@@ -1,6 +1,15 @@
 /* Soluzione qui */
 @media all and (min-width: 768px) {
+
+  /* Il logo nell'header si allinea a sinistra */
+
   #topbar {
     justify-content: left;
+  }
+
+  /* Il padding del contenuto principale della pagina aumenta */
+
+  main {
+    padding: 50px;
   }
 }
