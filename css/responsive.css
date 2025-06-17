@@ -19,4 +19,9 @@
     display: inline-block;
   }
 
+  /* La grandezza del titolo diventa più grande */
+
+  .recipe-title {
+    font-size: 1.3rem;
+  }
 }
