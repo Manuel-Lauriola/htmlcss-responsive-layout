@@ -47,4 +47,11 @@
   .ads {
     display: block;
   }
+
+  /* l'immagine nella descrizione della ricetta viene circondata dal testo */
+
+  .clearfix img {
+    float: left;
+    margin-right: 20px;
+  }
 }
