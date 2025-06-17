@@ -12,4 +12,11 @@
   main {
     padding: 50px;
   }
+
+  /* Compare il testo "(Dolce Tradizionale)" */
+
+  .recipe-origin {
+    display: inline-block;
+  }
+
 }
