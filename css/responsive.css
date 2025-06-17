@@ -95,4 +95,18 @@
     width: 100%;
   }
 
+  /* Compaiono i nomi delle piattaforme social */
+
+  .social-networks .label {
+    display: block;
+  }
+
+  .social-networks .btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 37px;
+    gap: 4px;
+  }
+
 }
