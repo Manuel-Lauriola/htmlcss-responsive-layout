@@ -24,4 +24,15 @@
   .recipe-title {
     font-size: 1.3rem;
   }
+
+  /* Le informazioni della ricetta sotto il video si dispongono a griglia */
+
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes ul li {
+    width: 32%;
+  }
 }
