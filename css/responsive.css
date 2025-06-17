@@ -69,4 +69,11 @@
     font-size: 1.6rem;
   }
 
+  /* Le informazioni della ricetta tornano a disporsi una sotto l'altra */
+
+  .quick-notes ul {
+    display: block;
+    flex-wrap: nowrap;
+  }
+
 }
