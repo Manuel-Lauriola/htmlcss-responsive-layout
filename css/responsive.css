@@ -1,4 +1,7 @@
 /* Soluzione qui */
+
+/* Modalità tablet */
+
 @media all and (min-width: 768px) {
 
   /* Il logo nell'header si allinea a sinistra */
@@ -54,4 +57,16 @@
     float: left;
     margin-right: 20px;
   }
+}
+
+/* Modalità Desktop */
+
+@media all and (min-width: 992px) {
+
+  /* La grandezza el titolo della ricetta aumenta ancora di più */
+
+  .recipe-title {
+    font-size: 1.6rem;
+  }
+
 }
